@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage Explorer</title>
+    <link rel="stylesheet" href="madurai.css">
+    <script src="madurai.js" defer></script>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="heritage-navbar">
+            <div class="heritage-logo">
+                <a href="#">Heritage Explorer</a>
+            </div>
+            
+            <ul class="heritage-nav-links">
+                <li><a href="#heritage-hero">Home</a></li>
+                <li><a href="#heritage-content-section">Explore</a></li>
+                <li><a href="#dist-section">Destinations</a></li>
+                <li><a href="#heritage-features">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <!-- Search Box -->
+            <div class="heritage-search-container">
+                <input type="text" placeholder="Search..." class="heritage-search-bar">
+                <button class="heritage-search-btn">🔍</button>
+            </div>
+            <div class="heritage-hamburger" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+        <!-- Hero Section -->
+<section id="heritage-hero" class="heritage-hero">
+    <div class="heritage-overlay"></div>
+    <div class="heritage-hero-content">
+        <h1>Madurai! The Timeless City of Heritage!!!</h1>
+        <p>Discover the rich cultural tapestry of Madurai, where ancient temples, vibrant streets, and historical landmarks narrate tales of a glorious past.</p> 
+           <p>Experience the city's blend of tradition and modernity, making it a must-visit destination for heritage explorers.</p>
+        <!--a href="#" class="heritage-explore-btn">Start Your Journey</a-->
+        
+    </div>
+
+
+
+
+   
+
+</section>
+<!-- App Features Section -->
+<section class="madurai-container">
+    <div class="heritage-card" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="openDetailPage('meenakshi')">
+        <img src="images/meenakshitemple.jpg" alt="Meenakshi Temple">
+        <h1>Meenakshi Amman Temple</h1>
+    </div>
+    <div class="heritage-card" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="openDetailPage('nayakkar')">
+        <img src="images/thirumalainayakkarpalace.jpg" alt="Thirumalai Nayakkar Palace">
+        <h1>Thirumalai Nayakkar Palace</h1>
+    </div>
+    <div class="heritage-card" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="openDetailPage('gandhi')">
+        <img src="images/gandhimuseum.jpg" alt="Gandhi Museum">
+        <h1>Gandhi Memorial Museum</h1>
+    </div>
+    <div class="heritage-card" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="openDetailPage('alagarkovil')">
+        <img src="images/alagarkovil.jpg" alt="Alagar Kovil">
+        <h1>Alagar Kovil</h1>
+    </div>
+    <div class="heritage-card" onmouseover="showInfo(this)" onmouseout="hideInfo(this)" onclick="openDetailPage('stmarys')">
+        <img src="images/stmaryschurch1.jpg" alt="St. Mary's Church">
+        <h1>St. Mary's Church</h1>
+    </div>
+
+</section>   
+    
+
+    <!-- Footer Section -->
+    <footer class="heritage-footer">
+        <p>&copy; 2025 Heritage Explorer | All Rights Reserved</p>
+    </footer>
+
+
+    
+</body>
+</html>
